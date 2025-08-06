@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sexto Perito Contador - Orientación SAT Guatemala</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .header {
+            background-color: #004d99; /* Azul de la marca SAT */
+            color: #ffffff;
+            padding: 20px 0;
+            text-align: center;
+            border-bottom: 5px solid #ffcc00; /* Amarillo de la marca SAT */
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            letter-spacing: 2px;
+        }
+        .header h2 {
+            margin: 5px 0 0;
+            font-size: 1.2em;
+            font-weight: normal;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro y Comentarios</title>
+    <link rel="stylesheet" href="style.css">
+<body>
+     <header class="header">
+        <h1>Sexto Perito Contador</h1>
+        <h2>Superintendencia de Administración Tributaria (SAT)</h2>
+    </header>
+
+    <div class="container">
+        <h1>Deja tu Comentario</h1>
+        <form id="commentForm">
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div class="form-group">
+                <label for="comentario">Comentario:</label>
+                <textarea id="comentario" name="comentario" rows="4" required></textarea>
+            </div>
+            <button type="submit">Enviar Comentario</button>
+        </form>
+
+        <h2>Comentarios Anteriores</h2>
+        <div id="commentList">
+            </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
